@@ -1,0 +1,38 @@
+:root {
+  --text-color:  #000000 ;
+  --accent-color: #5B6460;
+}
+h1, h2, h3, h4, h5, p {
+  margin: 0
+}
+body {
+  color: #000000;
+  background-color: #ffffff;
+}
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+a {
+  font-style: normal;
+  text-decoration: none;
+  color: var(--text-color);
+}
+section {
+border: solid 2px blue;
+
+}
+
+header {
+  border: 2px solid red
+}
+footer {
+  border: 2px solid green
+}
