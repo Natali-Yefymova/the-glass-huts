@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Glass Huts</title>
-<link rel="stylesheet" href="./css/styles.css" />
-    <!-- 
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,400&family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
-     -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Mulish&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Quicksand:wght@300;500&display=swap"
+            rel="stylesheet">
+<link rel="stylesheet" href="./css/styles.css" />
+
 </head>
 <body>
     <header>
@@ -19,30 +20,31 @@
          <img src="./images/home-page/1.svg" alt="logo The Glass Huts">
         </a>
             <ul class="list">
-            <li><a href="">HOME</a></li>
-            <li><a href="">THE HUT</a></li>
-            <li><a href="">THE AREA</a></li>
-            <li><a href="./booking.html">BOOKING</a></li>
-            <li><a href="">ABOUT US</a></li>
-           <li> <a href="">FAQ</a></li>
+            <li><a href="" class="header-nav">HOME</a></li>
+            <li><a href="" class="header-nav">THE HUT</a></li>
+            <li><a href="" class="header-nav">THE AREA</a></li>
+            <li><a href="./booking.html" class="header-nav">BOOKING</a></li>
+            <li><a href="" class="header-nav">ABOUT US</a></li>
+           <li> <a href="" class="header-nav">FAQ</a></li>
             </ul>
       
         <button type="button">
         <img src="" alt="language">
         </button>
-        <a href="">BOOK NOW</a>
+        <a href="" class="button">BOOK NOW</a>
         </nav>
     </header>
     <main>
         <section class="section-hero">
-            <h1>Find peace in the Forest</h1>
-            <p>Come and stay in out hut hotel near Mariager Fjord in Denmark</p>
-            <a href="">BOOK NOW <span>from &#8364;3.200 per night</span></a>
+            <h1 class="hero-title">Find peace in the Forest</h1>
+            <p class="hero-text">Come and stay in out hut hotel near Mariager Fjord in Denmark</p>
+            <a href="" class="button">BOOK NOW <span class="button-accent">from &#8364;3.200 per night</span></a>
         </section>
+        <!-- The Cabins -->
         <section>
-            <h2>The Cabins</h2>
+            <h2 class="title">The Cabins</h2>
             <p>Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are designed by architect Sigurd Larsen. They all have an open space with a double bed, a double sofa bed, kitchen, separate toilet and an outdoor shower. On the roof, surrounded by treetops, there is a terrace, which is about nine meters above ground. The cottages are built around tall, old trees that go through the entire cottage from floor to ceiling.</p>
-            <button type="button">Read More</button>
+            <button type="button btn-descr">Read More</button>
             <ul class="list">
                 <li>
                     <img src="" alt="">
@@ -58,17 +60,19 @@
                 </li>
             </ul>
         </section>
+        <!-- The forest -->
         <section>
             <!-- надо еще карту добавить -->
-            <h2>The Forest</h2>
+            <h2 class="title">The Forest</h2>
             <p>Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are designed by architect Sigurd Larsen. They all have
             an open space with a double bed, a double sofa bed, kitchen, separate toilet and an outdoor shower. On the roof,
             surrounded by treetops, there is a terrace, which is about nine meters above ground. The cottages are built around tall,
             old trees that go through the entire cottage from floor to ceiling.</p>
-            <button type="button">Read More</button>
+            <button type="button btn-descr">Read More</button>
         </section>
-        <section>
-            <h2>Facilities</h2>
+        <!-- Facilities -->
+        <section class="section-facilities">
+            <h2 class="title facilities-title">Facilities</h2>
             <ul class="list">
                 <li>Mini fridge</li>
                 <li>Kitchenette</li>
@@ -84,29 +88,31 @@
                 <li>Bedding & towels</li>
             </ul>
         </section>
+        <!-- More about -->
         <section>
             <ul class="list">
                 <li></li>
                 <li></li>
-                <a href="">More about us</a>
+                <a href="" class="about-link">More about us</a>
             </ul>
         </section>
+        <!-- Contacts -->
         <section>
-            <h2>Stay in touch with us</h2>
+            <h2 class="title contacts-title">Stay in touch with us</h2>
             <address>
                 <p>Vesterborg, Denmark <br>+123 456 789 000 <br>info@theglasshuts.com</p>
             </address>
             <ul class="list">
-                <li>Instagram</li>
-                <li>Facebook</li>
-                <li>Twitter</li>
+                <li class="contacts-links">Instagram</li>
+                <li class="contacts-links">Facebook</li>
+                <li class="contacts-links">Twitter</li>
             </ul>
             <img src="" alt="">
-            <a href="">BOOK A HUT <span>from &#8364;3.200 per night</span></a>
+            <a href="" class="button">BOOK A HUT <span class="button-accent">from &#8364;3.200 per night</span></a>
         </section>
     </main>
-    <footer>
-        <h2>Newsletter</h2>
+    <footer class="footer">
+        <h2 class="footer-title">Newsletter</h2>
        <!-- надо подумать как правильно сделать эту кнопку и поле для ввода-->
         <input type="text">
         <p>Sign up to our newsletter for special things and receive 10% off your next order.</p>
@@ -128,7 +134,7 @@
             <li><img src="" alt="bank transfer"></li>
         </ul>
 
-        <p>&#169 The Glass Huts</p>
+        <p class="footer-copyright">&#169 The Glass Huts</p>
     </footer>
 </body>
 </html>
